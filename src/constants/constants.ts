@@ -1,0 +1,2 @@
+export const BUTTON_COOLDOWN_SECONDS = 5;
+export const FLIGHT_DURATION_MS = 2000;

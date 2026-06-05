@@ -1,0 +1,10 @@
+.circle {
+  position: fixed;
+  width: clamp(28px, 5vw, 40px);
+  height: clamp(28px, 5vw, 40px);
+  border-radius: 50%;
+  background-color: #26e349;
+  border: none;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

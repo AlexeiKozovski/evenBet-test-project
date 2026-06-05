@@ -1,0 +1,28 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.app__stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(48px, 18vw, 220px);
+  padding: 40px 24px;
+}
+
+.app__block-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(180px, 34vw, 300px);
+}
+
+.app__button {
+  display: flex;
+  justify-content: center;
+  padding: 0 24px 48px;
+}

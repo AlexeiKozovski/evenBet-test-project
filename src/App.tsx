@@ -1,7 +1,4 @@
-import './App.css';
+import { type FC } from 'react';
+import { AppContent } from './components/AppContent/AppContent';
 
-function App() {
-  return <div className="App">Hello EvenBet!</div>;
-}
-
-export default App;
+export const App: FC = () => <AppContent />;

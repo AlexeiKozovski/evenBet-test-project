@@ -1,0 +1,21 @@
+.start-button {
+  min-width: 200px;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.start-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.start-button:not(:disabled):hover {
+  opacity: 0.9;
+}

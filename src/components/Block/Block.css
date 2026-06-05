@@ -1,0 +1,31 @@
+.block {
+  --block-size: clamp(120px, 22vw, 200px);
+
+  width: var(--block-size);
+  height: var(--block-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #50bfbb;
+  color: #fff;
+  font-size: clamp(64px, 12vw, 96px);
+}
+
+.block--animated {
+  animation: block-float 5s ease-in-out infinite;
+}
+
+@keyframes block-float {
+  0%,
+  100% {
+    transform: translateY(50%);
+  }
+
+  50% {
+    transform: translateY(-50%);
+  }
+}
+
+.block__number {
+  pointer-events: none;
+}
